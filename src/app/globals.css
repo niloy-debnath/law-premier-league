@@ -12,10 +12,23 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f8f7f5;
+    --foreground: #14120e;
+
+    --primary: #968b6f;
+    --secondary: #f0b100;
+    --accent: #9393b0;
+  }
+
+  .dark {
+    --background: #090806;
+    --foreground: #f0eeea;
+
+    --primary: #918669;
+    --secondary: #ffbf0f;
+    --accent: #4f4f6d;
   }
 }
 
